@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style-admin.css" />
+        <title>Admin</title>
+        <!-- En-tête de la page -->
+    </head>
+
+    <body>
+    	<header>
+
+            <p>Administration</p>   
+	    	
+    	</header>
+
+    	
+    	<main>
+
+    		<article>
+                
+
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <div class="row">
+                        <label class="required" for="name">Nom:</label><br />
+                        <input id="name" class="input" name="name" type="text" /><br />
+                        <span id="name_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                        <label class="required" for="surname">Prénom:</label><br />
+                        <input id="surname" class="input" name="surname" type="text" /><br />
+                        <span id="surname_validation" class="error_message"></span>
+                    </div>
+                    <div class="row">
+                        <label class="required" for="email">Mail:</label><br />
+                        <input id="email" class="input" name="email" type="text" /><br />
+                        <span id="email_validation" class="error_message"></span>
+                    </div>
+                </form>
+    		</article>
+
+            
+
+            
+    	</main>
+    </body>
+</html>
